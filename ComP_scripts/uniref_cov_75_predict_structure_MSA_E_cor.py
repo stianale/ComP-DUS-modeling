@@ -27,12 +27,12 @@ fasta_path = Path("/tmp/example.fasta")
 fasta_path.write_text(example_fasta)
 
 # Define the #directory containing your .a3m files
-#directory = 'chai-lab_additional/chai-lab/uniref_cov_50_MSA_E_corrodens_ComP/final_cov_75'
+#directory = 'chai-lab_additional/uniref_cov_50_MSA_E_corrodens_ComP/final_cov_75'
 
 # Call the function to merge and convert the files
 #_merge_files_in_#directory(#directory)
 
-msa_path = Path("chai-lab_additional/chai-lab/uniref_cov_50_MSA_E_corrodens_ComP/final_cov_75")
+msa_path = Path("chai-lab_additional/uniref_cov_50_MSA_E_corrodens_ComP/final_cov_75")
 
 output_dir = Path("/tmp/outputs")
 

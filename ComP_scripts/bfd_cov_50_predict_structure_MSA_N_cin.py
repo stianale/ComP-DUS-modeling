@@ -26,7 +26,7 @@ TTCAGACGGCAT
 fasta_path = Path("/tmp/example.fasta")
 fasta_path.write_text(example_fasta)
 
-msa_path = Path("chai-lab_additional/chai-lab/bfd_cov_50_MSA_N_cin_ComP/paired_ComP_DUS")
+msa_path = Path("chai-lab_additional/bfd_cov_50_MSA_N_cin_ComP/paired_ComP_DUS")
 
 output_dir = Path("/tmp/outputs")
 
