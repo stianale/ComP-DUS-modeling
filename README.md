@@ -1,18 +1,18 @@
 # Chai-1
 
-In another directory, clone the https://github.com/chaidiscovery/chai-lab repo and install following the instructions in README.
+Clone this repo, and then, in another directory, clone the https://github.com/chaidiscovery/chai-lab repo and install following the instructions in README.
 
 Copy over the folders present here:
 
-cp -r Chai path/to/chai-lab
+cp -r path/to/ComP-DUS-modeling/Chai path/to/chai-lab
 
 cd path/to/chai-lab/Chai
 
-The scripts to run ComP-DUS inferences are found in ComP_scripts. Use run_script.bash to run the inferences, ie. for paired_ComP_DUS_cov_50_paired_bfd_cov_50_MSA_B_den_ComP.py:
+The scripts to run ComP-DUS inferences are found in ComP_scripts. Use run_script.bash to run the inferences, ie. for the protein and DNA specified in the python config file paired_ComP_DUS_cov_50_paired_bfd_cov_50_MSA_B_den_ComP.py:
 
 ```bash run_script.bash ComP_script/paired_ComP_DUS_cov_50_paired_bfd_cov_50_MSA_B_den_ComP.py```
 
-This will run 10 replicates of the inference.
+This will run 10 replicates of the inference specified in the python config file provided as the only argument to running this bash script.
 
 # AF3
 
