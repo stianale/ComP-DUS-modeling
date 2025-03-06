@@ -49,7 +49,7 @@ ksh93 200_best_models.ksh B_denitrificans_ComP
 
 # DockQ - internal consistency and cross-platform comparisons
 
-Pairwise DockQ was calculated for all top models:
+Pairwise DockQ (https://github.com/bjornwallner/DockQ) was calculated for all top models:
 
 1. Within the same platform
 2. Across different platforms,
